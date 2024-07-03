@@ -1,4 +1,4 @@
-<h2 align="center">AK CREATIO - Editing Lab</h2>
+<h2 align="center">AK CREATIO - EDITING LAB</h2>
 
 
 
