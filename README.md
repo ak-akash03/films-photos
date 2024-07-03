@@ -1,4 +1,4 @@
-<h2 align="center">AK CREATIO - EDITING LAB <span>[LIVE DEMO](https://ak-akash03.github.io/editinglabproject/)</span></h2>
+<h2 align="center">AK CREATIO - EDITING LAB </h2>
 
 
 
