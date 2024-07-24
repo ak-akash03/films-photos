@@ -172,7 +172,7 @@ body::-webkit-scrollbar-thumb {
   #REUSED STYLE
 \*-----------------------------------*/
 
-.container { padding-inline: 30px; }
+.container { padding-inline: 20px; }
 
 .section { padding-block: var(--section-padding); }
 
