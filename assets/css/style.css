@@ -1061,23 +1061,25 @@ textarea.input-field {
   /* background-color: rgb(241, 241, 241); */
   
 }
-
+ 
 .maindiv iframe{
-  border-radius: 20px ;
+  border-radius: 10px ;
   background-color: red;
   height: 170px;
   width: 315px;
 }
 
 @media (max-width: 600px) {
+  
   .maindiv{
     /* background-color: rgb(241, 241, 241); */
     height: 515px
   }
   .maindiv iframe{
-    border-radius: 10px ;
+    border-radius: 5px ;
     background-color: red;
     height: 160px;
     width: 300px;
   }
 }
+
