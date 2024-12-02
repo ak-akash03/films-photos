@@ -1083,3 +1083,10 @@ textarea.input-field {
   }
 }
 
+
+
+
+.sample-image-style img{
+  height: 100%;
+  width: 100%;
+}
