@@ -42,6 +42,12 @@ addEventOnElem(navLinks, "click", closeNavbar);
 
 
 
+
+
+
+// ----------------------------------------
+
+
 /**
  * header active
  */
@@ -55,3 +61,24 @@ window.addEventListener("scroll", function () {
     header.classList.remove("active");
   }
 });
+
+
+const gallery = document.querySelector(".gallery-container");
+
+let scrollInterval = setInterval(() => {
+  gallery.scrollBy({ left: 220, behavior: "smooth" });
+}, 2000);
+
+// Pause auto-scroll on hover
+gallery.addEventListener("mouseover", () => clearInterval(scrollInterval));
+gallery.addEventListener("mouseout", () => {
+  scrollInterval = setInterval(() => {
+    gallery.scrollBy({ left: 220, behavior: "smooth" });
+  }, 2000);
+});
+
+
+
+
+
+
